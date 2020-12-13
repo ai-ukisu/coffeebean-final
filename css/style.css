@@ -82,9 +82,10 @@ p,input,label,span,a{
     font-family: 'Oswald', sans-serif;
 }
 .banner p{
-    color: #312a26;
+    color: #ffffff;
     font-style: italic;
     margin-bottom: 15px;
+
 }
 .banner a{
     background-color: #312a26;
