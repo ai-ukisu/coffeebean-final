@@ -459,7 +459,7 @@ p,input,label,span,a{
     }
     .ads .ads-box{
         float: none;
-        width: 50%;
+        width: 100%;
     
     }
     
@@ -475,11 +475,29 @@ p,input,label,span,a{
     }
     .left, .right{
         float: none;
+        width: 100%;
     }
     .opening,
     .latest-post,
     .contact,
     .location{
         float: none;
+        width: 100%;
     }
+    .wrapper{
+        min-width: 0;
+    }
+    .logo,
+    .social,
+    .copyight{
+        float: none;
+        width: 100%;
+        /* border: 2px solid #ffffff; */
+        text-align: center;
+    }
+    .logo, .social{
+        margin-right: 0;
+
+    }
+    
 }
