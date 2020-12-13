@@ -473,4 +473,13 @@ p,input,label,span,a{
     .item6{
         margin-right: 0;
     }
+    .left, .right{
+        float: none;
+    }
+    .opening,
+    .latest-post,
+    .contact,
+    .location{
+        float: none;
+    }
 }
