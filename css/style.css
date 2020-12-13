@@ -452,3 +452,25 @@ p,input,label,span,a{
 .copyight{
     text-align: right;
 }
+/* if the screen size is 0-768, apply all these css*/
+@media screen and (max-width:768px){
+    .nav ul{
+        display: none;
+    }
+    .ads .ads-box{
+        float: none;
+        width: 50%;
+    
+    }
+    
+    .merch-item{
+        width: 49.5%;
+        float: left;
+    }
+    .item2{
+        margin-right: 0;
+    }
+    .item6{
+        margin-right: 0;
+    }
+}
